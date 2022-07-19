@@ -1,0 +1,39 @@
+/* tag name */
+/* điểm: 1 */
+h2 {
+    color: red;
+    background-color: red;
+}
+
+/* id */
+/* điểm 100 */
+#idheading2 {
+    font-size: 50px;
+    background-color: yellow;
+}
+
+/* class name */
+/* điểm: 10 */
+.heading2 {
+    background-color: green;
+}
+
+/* C1: bằng điểm, code nằm dưới cùng */
+/* C2: điểm cao hơn, không quan thứ tự */
+
+/* 100 + 10 = 110 */
+/* Selector: #idheading2.heading2, .heading2 */
+#idheading2.heading2 {
+    background-color: pink;
+}
+
+/* 1 + 100 + 10 = 111 */
+body #idheading2.heading2 {
+    background-color: blue;
+}
+
+
+
+h1 {
+    background-color: green;
+}

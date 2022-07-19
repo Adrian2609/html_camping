@@ -1,0 +1,188 @@
+<!-- ! -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camping</title>
+    <!-- <link rel="stylesheet" href="./css/demo.css"> -->
+    <!-- MY CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/2823e552ac.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- <h2 id="idheading2" class="heading2">demo h2</h2> -->
+    <!-- B1: phân tích bố cục thành phần chính trên giao diện
+    5 thành phần chính
+    div: phân chia bố cục các thành phần UI -->
+    <div id="header" class="header">
+        <a href="#">
+            <img src="./images/logoicon.png" alt="Logo">
+        </a>
+        <!-- navigation bar/menu -->
+        <ul>
+            <!-- Alt + click chuột -->
+            <!-- ul>li*6>a: tạo nhanh cấu trúc html ul-li -->
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Destination</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+        <!-- <ul>
+            <li></li>
+        </ul> -->
+    </div>
+    <!-- .carousel: tạo thẻ div có class="carousel" -->
+    <div class="carousel"></div>
+    <!-- p.abc: tạo thẻ p có class="abc"
+    <p class="abc"></p> -->
+    <!-- class="title": nếu code css áp dụng chung thì đặt tên class gọn để tiện dùng chung -->
+    <!-- BEM: tên class thể hiện cha con giữa các thẻ: tenthechachinh__tenrieng 
+    btn-light
+    -->
+    <div class="activities">
+        <div class="activities__title">
+            <img class="activities__image" src="./images/Group 313.png" alt="">
+            <h2>Explore Destinations & Activities</h2>
+        </div>
+        <div class="activities__content">
+            <!-- activities__item: thêm khoảng cách -->
+            <div class="activities__item">
+                <!-- activities__background: thêm màu nền -->
+                <div class="activities__background">
+                    <div class="activities__image image1">
+                        <img src="./images/product1.png" alt="" class="activities__hidden">
+                        <a href="#"><i class="fa-solid fa-heart"></i></a>
+                    </div>
+                    <div class="activities__info">
+                        <h3>Trickle Creek Ranch</h3>
+                        <p>Book unique camping experiences on over 30,000 campsites.</p>
+                        <button>Read More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="activities__item">
+                <!-- activities__background: thêm màu nền -->
+                <div class="activities__background">
+                    <!-- <div class="activities__image">
+                        <img src="./images/product4.png" alt="">
+                    </div> -->
+                    <div class="activities__image image2">
+                        <img src="./images/product4.png" alt="" class="activities__hidden">
+                        <a href="#"><i class="fa-solid fa-heart"></i></a>
+                    </div>
+                    <div class="activities__info">
+                        <h3>Trickle Creek Ranch</h3>
+                        <p>Book unique camping experiences on over 30,000 campsites.</p>
+                        <button>Read More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="activities__item">
+                <!-- activities__background: thêm màu nền -->
+                <div class="activities__background">
+                    <!-- <div class="activities__image">
+                        <img src="./images/product5.png" alt="">
+                    </div> -->
+                    <div class="activities__image image3">
+                        <img src="./images/product5.png" alt="" class="activities__hidden">
+                        <a href="#"><i class="fa-solid fa-heart"></i></a>
+                    </div>
+                    <div class="activities__info">
+                        <h3>Trickle Creek Ranch</h3>
+                        <p>Book unique camping experiences on over 30,000 campsites.</p>
+                        <button>Read More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="activities__item">
+                <!-- activities__background: thêm màu nền -->
+                <div class="activities__background">
+                    <!-- <div class="activities__image">
+                        <img src="./images/product1.png" alt="">
+                    </div> -->
+                    <div class="activities__image image4">
+                        <img src="./images/product1.png" alt="" class="activities__hidden">
+                        <a href="#"><i class="fa-solid fa-heart"></i></a>
+                    </div>
+                    <div class="activities__info">
+                        <h3>Trickle Creek Ranch</h3>
+                        <p>Book unique camping experiences on over 30,000 campsites.</p>
+                        <button>Read More</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="activities__viewAll">
+            <button>View All</button>
+        </div>
+    </div>
+    <div class="contact">
+        <div class="homeicon" style="height: 22rem;">
+            <img src="./images/homeicon.png" alt="">
+        </div>
+        <div class="detail" style="height: 22rem;">
+            <h2>Let's Stay in Tough</h2>
+            <p>Get travel planning ideas, helpful tips, and stories from our visitors delivered right to your inbox.</p>
+            <div class="app">
+                <h3>Download Our App</h3>
+                <img src="./images/download-on-the-app-store-apple-1.png" alt="">
+                <img src="./images/google-play-badge-1.png" alt="">
+            </div>
+            <div class="social">
+                <h3>Follow us</h3>
+                <i class="fa-brands fa-facebook-square"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-pinterest"></i>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div>
+            <div class="intro">
+                <p class="title">
+                    Hipcamp is everywhere you want to camp.
+                </p>
+                <p>
+                    Get travel planning ideas, helpful tips, and stories from our visitors delivered right to your
+                    inbox.Get travel planning ideas, helpful tips, and stories from our visitors delivered right to your
+                    inbox.
+                </p>
+            </div>
+            <div class="help1">
+                <p class="title">Let Us Help You</p>
+                <p>About us</p>
+                <p>Rules & Reservation</p>
+                <p>Policies</p>
+                <p>Accessibility</p>
+                <p>Media Center</p>
+            </div>
+            <div class="plan">
+                <p class="title">Plan With Us</p>
+                <p>Find trip inspiration</p>
+                <p>Build a trip</p>
+                <p>Buy a pass</p>
+                <p>Enter a lottery</p>
+            </div>
+            <div class="help2">
+                <p class="title">Let Us Help You</p>
+                <p>Your account</p>
+                <p>Your reservation</p>
+                <p>Contact us</p>
+                <p>Help center</p>
+                <p>Submit feedback</p>
+            </div>
+        </div>
+        <p class="right"><i class="fa-solid fa-copyright"></i> 2020. All rights reserved.</p>
+    </div>
+
+</body>
+
+</html>
